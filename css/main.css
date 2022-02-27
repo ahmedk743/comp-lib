@@ -1,0 +1,56 @@
+hr {
+  display: block;
+  height: 2px;
+  border: 0;
+  border-top: 1px solid #777;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+.container,
+.details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 0.5;
+}
+
+.container {
+  padding: 0 15px 5px 15px;
+  border: 2px solid #777;
+  border-radius: 10%;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.avatar {
+  width: 150px;
+  height: 180px;
+  border: 2px solid #777;
+}
+
+.content {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 20px;
+  line-height: 1.5;
+  border: 2px solid #777;
+  border-radius: 5%;
+}
+.title {
+  text-align: center;
+}
+.subtitle {
+  text-decoration: underline;
+}
+.paragraph {
+  text-indent: 25px;
+}
